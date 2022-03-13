@@ -12,20 +12,20 @@ const register_options = [
 const walkthrough = [
     {
         id: 0,
-        title: "Explore Online Courses",
-        sub_title: "All types of educational & professional courses available online.",
-        image: require("../assets/images/work.png")
+        title: "Education for Everyone",
+        sub_title: "Best quality education for everyone, anytime and anywhere",
+        image: require("../assets/images/everyone.png")
     },
     {
         id: 1,
-        title: "Explore Online Courses",
-        sub_title: "All types of educational & professional courses available online.",
-        image: require("../assets/images/work.png")
+        title: "Contribution Reward",
+        sub_title: "Get reward for your effort",
+        image: require("../assets/images/contribute.png")
     },
     {
         id: 2,
-        title: "Explore Online Courses",
-        sub_title: "All types of educational & professional courses available online.",
+        title: "Blockchain",
+        sub_title: "Get blockchain benefit in education system",
         image: require("../assets/images/work.png")
     },
 ]
@@ -33,47 +33,47 @@ const walkthrough = [
 const categories = [
     {
         id: 0,
-        label: "Mobile Design",
+        label: "7 SMP",
         icon: require("../assets/icons/mobile.png")
     },
     {
         id: 1,
-        label: "3D Modeling",
+        label: "8 SMP ",
         icon: require("../assets/icons/model_3d.png")
     },
     {
         id: 2,
-        label: "Web Designing",
+        label: "9 SMP" ,
         icon: require("../assets/icons/web_design.png")
     },
     {
         id: 3,
-        label: "Illustrations",
+        label: "10 SMA",
         icon: require("../assets/icons/illustration.png")
     },
     {
         id: 4,
-        label: "Drawing",
+        label: "11 SMA",
         icon: require("../assets/icons/drawing.png")
     },
     {
         id: 5,
-        label: "Animation",
+        label: "12 SMA",
         icon: require("../assets/icons/animation.png")
     },
     {
         id: 6,
-        label: "Education",
+        label: "Certification",
         icon: require("../assets/icons/education.png")
     },
     {
         id: 7,
-        label: "Networking",
+        label: "Training",
         icon: require("../assets/icons/networking.png")
     },
     {
         id: 8,
-        label: "Coding",
+        label: "generic",
         icon: require("../assets/icons/coding.png")
     },
 ]
@@ -123,15 +123,19 @@ const class_types = [
 const class_levels = [
     {
         id: 0,
-        label: "Beginner"
+        label: "SMP"
     },
     {
         id: 1,
-        label: "Intermediate"
+        label: "SMA-SMK"
     },
     {
         id: 2,
-        label: "Advanced"
+        label: "Collage"
+    },
+    {
+        id: 3,
+        label: "Generic"
     }
 ]
 

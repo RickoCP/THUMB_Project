@@ -178,11 +178,13 @@ const InstructorProfile = ({ appTheme, navigation }) => {
                                 justifyContent: 'center',
                             }}>
                             <Text style={{
+                                color:COLORS.black,
                                 ...FONTS.h2,
-                            }}>
+                            }}>S
                                 {item.value}
                             </Text>
                             <Text style={{
+                                color:COLORS.black,
                                 ...FONTS.h4,
                             }}>
                                 {item.title}

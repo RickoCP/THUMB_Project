@@ -1,32 +1,32 @@
 const categories = [
     {
         id: 0,
-        title: "Mobile Design",
+        title: "Math",
         thumbnail: require("../assets/images/bg_1.png")
     },
     {
         id: 1,
-        title: "3D Modeling",
+        title: "Natural Science",
         thumbnail: require("../assets/images/bg_2.png")
     },
     {
         id: 2,
-        title: "Web Designing",
+        title: "Social Science",
         thumbnail: require("../assets/images/bg_3.png")
     },
     {
         id: 3,
-        title: "Illustrations",
+        title: "Indenesian",
         thumbnail: require("../assets/images/bg_4.png")
     },
     {
         id: 4,
-        title: "Drawing",
+        title: "English",
         thumbnail: require("../assets/images/bg_5.png")
     },
     {
         id: 5,
-        title: "Animation",
+        title: "Coding",
         thumbnail: require("../assets/images/bg_6.png")
     }
 ]
@@ -34,13 +34,13 @@ const categories = [
 const courses_list_1 = [
     {
         id: 0,
-        title: "Canava Graphic Design Course - Beginner",
+        title: "Corona Virus",
         duration: "2h 30m",
         thumbnail: require("../assets/images/thumbnail_1.png")
     },
     {
         id: 1,
-        title: "The Complete Presentation and speech",
+        title: "Hukum Newton dan Aplikasinya",
         duration: "1h 30m",
         thumbnail: require("../assets/images/thumbnail_2.png")
     }
@@ -49,9 +49,9 @@ const courses_list_1 = [
 const courses_list_2 = [
     {
         id: 0,
-        title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+        title: "Corona Virus",
         duration: "2h 30m",
-        instructor: "James Morris",
+        instructor: "Ricko Caesar Putra",
         ratings: 4.9,
         price: 75,
         is_favourite: true,
@@ -59,9 +59,9 @@ const courses_list_2 = [
     },
     {
         id: 1,
-        title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+        title: "Hukum Newton dan Aplikasinya",
         duration: "2h 30m",
-        instructor: "James Morris",
+        instructor: "Ricko Caesar Putra",
         ratings: 4.9,
         price: 75,
         is_favourite: false,
@@ -69,9 +69,9 @@ const courses_list_2 = [
     },
     {
         id: 2,
-        title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+        title: "Sejarah Indonesia",
         duration: "2h 30m",
-        instructor: "James Morris",
+        instructor: "Ricko Caesar Putra",
         ratings: 4.9,
         price: 75,
         is_favourite: true,
@@ -79,9 +79,9 @@ const courses_list_2 = [
     },
     {
         id: 3,
-        title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+        title: "Kosa Kata 1",
         duration: "2h 30m",
-        instructor: "James Morris",
+        instructor: "Ricko Caesar Putra",
         ratings: 4.9,
         price: 75,
         is_favourite: false,
@@ -89,9 +89,9 @@ const courses_list_2 = [
     },
     {
         id: 4,
-        title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+        title: "Kosa Kata 2",
         duration: "2h 30m",
-        instructor: "James Morris",
+        instructor: "Ricko Caesar Putra",
         ratings: 4.9,
         price: 75,
         is_favourite: false,
@@ -99,9 +99,9 @@ const courses_list_2 = [
     },
     {
         id: 5,
-        title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+        title: "Kosa Kata 3",
         duration: "2h 30m",
-        instructor: "James Morris",
+        instructor: "Ricko Caesar Putra",
         ratings: 4.9,
         price: 75,
         is_favourite: false,
@@ -112,38 +112,38 @@ const courses_list_2 = [
 const top_searches = [
     {
         id: 0,
-        label: "Sketch"
+        label: "Corona Virus"
     },
     {
         id: 1,
-        label: "Modeling"
+        label: "Fast tracking"
     },
     {
         id: 2,
-        label: "UI/UX"
+        label: "Newton Law"
     },
     {
         id: 3,
-        label: "Web"
+        label: "English pharse"
     },
     {
         id: 4,
-        label: "Mobile"
+        label: "Disaster"
     },
     {
         id: 5,
-        label: "Animation"
+        label: "Nature Law"
     },
 ]
 
 const course_details = {
     id: 0,
-    title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+    title: "Corona Virus",
     number_of_students: "33.5k Students",
     duration: "2h 30m",
     instructor: {
-        name: "ByProgrammers",
-        title: "Full Stack Programmer"
+        name: "Ricko Caesar Putra",
+        title: "Telkomsel Researcher"
     },
     videos: [
         {
@@ -157,7 +157,7 @@ const course_details = {
             is_downloaded: false,
         },
         {
-            title: "2. User Interface",
+            title: "2. Corona Virus Topology",
             duration: "1:15:00",
             size: "200 MB",
             progress: "100%",
@@ -167,7 +167,7 @@ const course_details = {
             is_downloaded: true,
         },
         {
-            title: "3. User Experience",
+            title: "3. How to stop corona virus",
             duration: "1:27:00",
             size: "230 MB",
             progress: "0%",
@@ -202,23 +202,23 @@ const course_details = {
     files: [
         {
             id: 0,
-            name: "UI Fundamentals",
-            author: "Shared by ByProgrammers",
-            upload_date: "13th Sep 2021",
+            name: "Corona virus structure",
+            author: "Shared by Ricko Caesar Putra",
+            upload_date: "13th Mar 2022",
             thumbnail: require("../assets/images/pdf.png")
         },
         {
             id: 1,
-            name: "UX Checklist",
-            author: "Shared by ByProgrammers",
-            upload_date: "11th Sep 2021",
+            name: "Corona virus spreading",
+            author: "Shared by Ricko Caesar Putra",
+            upload_date: "13th Mar 2022",
             thumbnail: require("../assets/images/doc.png")
         },
         {
             id: 2,
-            name: "Sketch File",
-            author: "Shared by ByProgrammers",
-            upload_date: "7th Sep 2021",
+            name: "Other File",
+            author: "Shared by Ricko Caesar Putra",
+            upload_date: "13th Mar 2022",
             thumbnail: require("../assets/images/sketch.png")
         }
     ],
@@ -226,7 +226,7 @@ const course_details = {
         {
             id: 0,
             profile: require("../assets/images/profile.png"),
-            name: "ByProgrammers",
+            name: "Ricko Caesar Putra",
             no_of_comments: "11 comments",
             no_of_likes: "72 likes",
             posted_on: "5 days ago",
@@ -235,28 +235,28 @@ const course_details = {
                 {
                     id: 0,
                     profile: require("../assets/images/student_1.png"),
-                    name: "ByProgrammers",
+                    name: "Student 1",
                     posted_on: "4 days ago",
                     comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
                 },
                 {
                     id: 1,
-                    profile: require("../assets/images/student_1.png"),
-                    name: "ByProgrammers",
+                    profile: require("../assets/images/student_2.png"),
+                    name: "Student 2",
                     posted_on: "4 days ago",
                     comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
                 },
                 {
                     id: 2,
-                    profile: require("../assets/images/student_1.png"),
-                    name: "ByProgrammers",
+                    profile: require("../assets/images/student_3.png"),
+                    name: "Student 3",
                     posted_on: "4 days ago",
                     comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
                 },
                 {
                     id: 3,
                     profile: require("../assets/images/student_1.png"),
-                    name: "ByProgrammers",
+                    name: "Student 1",
                     posted_on: "4 days ago",
                     comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
                 },
@@ -265,7 +265,7 @@ const course_details = {
         {
             id: 1,
             profile: require("../assets/images/profile.png"),
-            name: "ByProgrammers",
+            name: "Ricko Caesar Putra",
             no_of_comments: "21 comments",
             no_of_likes: "372 likes",
             posted_on: "14 days ago",
@@ -274,21 +274,21 @@ const course_details = {
                 {
                     id: 0,
                     profile: require("../assets/images/student_1.png"),
-                    name: "ByProgrammers",
+                    name: "Student 1",
                     posted_on: "7 days ago",
                     comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
                 },
                 {
                     id: 1,
-                    profile: require("../assets/images/student_1.png"),
-                    name: "ByProgrammers",
+                    profile: require("../assets/images/profile.png"),
+                    name: "Ricko Caesar Putra",
                     posted_on: "7 days ago",
                     comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
                 },
                 {
                     id: 2,
                     profile: require("../assets/images/student_1.png"),
-                    name: "ByProgrammers",
+                    name: "Student 1",
                     posted_on: "7 days ago",
                     comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
                 },
@@ -347,7 +347,7 @@ const notificationByDays = [
     },
 ]
 
-const sample_video_url = "https://www.rmp-streaming.com/media/big-buck-bunny-360p.mp4"
+const sample_video_url = "https://www.cdc.gov/coronavirus/2019-ncov/videos/COVID-19-School-based-testing/CDC-School-Covid-19-Testing.mp4"
 
 const membershipPans = [
     {
@@ -382,8 +382,8 @@ const membershipPans = [
 
 const instructorProfile = {
     id: 1,
-    name: "ByProgrammers",
-    title: "Full Stack Programmers",
+    name: "Ricko Caesar Putra",
+    title: "Telkomsel Researcher",
     avatar: require("../assets/images/profile.png"),
     isVerified: true,
 
@@ -415,36 +415,36 @@ const instructorProfile = {
     courses: [
         {
             id: 0,
-            title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+            title: "Corona Virus",
             duration: "2h 30m",
-            instructor: "ByProgrammers",
+            instructor: "Ricko Caesar Putra",
             ratings: 4.9,
             price: 75,
             thumbnail: require("../assets/images/thumbnail_1.png")
         },
         {
             id: 1,
-            title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+            title: "Hukum Newton",
             duration: "2h 30m",
-            instructor: "ByProgrammers",
+            instructor: "Ricko Caesar Putra",
             ratings: 4.9,
             price: 75,
             thumbnail: require("../assets/images/thumbnail_2.png")
         },
         {
             id: 2,
-            title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+            title: "Sejarah Indonesia",
             duration: "2h 30m",
-            instructor: "ByProgrammers",
+            instructor: "Ricko Caesar Putra",
             ratings: 4.9,
             price: 75,
             thumbnail: require("../assets/images/thumbnail_3.png")
         },
         {
             id: 3,
-            title: "The Ultimate Ui/Ux Course Beginner to Advanced",
+            title: "Kosa Kata",
             duration: "2h 30m",
-            instructor: "ByProgrammers",
+            instructor: "Ricko Caesar Putra",
             ratings: 4.9,
             price: 75,
             thumbnail: require("../assets/images/thumbnail_4.png")
@@ -517,6 +517,18 @@ const instructorProfile = {
             id: 2,
             name: "Linkedin",
             icon: require("../assets/icons/linkedin.png"),
+            url: ""
+        },
+        {
+            id: 3,
+            name: "Facebook",
+            icon: require("../assets/icons/facebook.png"),
+            url: ""
+        },
+        {
+            id: 4,
+            name: "Google",
+            icon: require("../assets/icons/google.png"),
             url: ""
         },
     ]

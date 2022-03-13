@@ -85,7 +85,7 @@ const Home = ({ appTheme }) => {
                             ...FONTS.h2
                         }}
                     >
-                        Hello, ByProgrammers!
+                        Hello, Rickoput!
                     </Text>
                     <Text
                         style={{
@@ -93,7 +93,7 @@ const Home = ({ appTheme }) => {
                             ...FONTS.body3
                         }}
                     >
-                        Thursday, 9th Sep 2021
+                        Thursday, 3th Mar 2022
                     </Text>
                 </View>
 
@@ -139,7 +139,7 @@ const Home = ({ appTheme }) => {
                             ...FONTS.h2
                         }}
                     >
-                        Make your brand more visible with our checklist.
+                        Blockchain will change the world
                     </Text>
 
                     <Text
@@ -149,7 +149,7 @@ const Home = ({ appTheme }) => {
                             ...FONTS.body4
                         }}
                     >
-                        By Scott Harris
+                        By Ricko Caesar Putra
                     </Text>
                 </View>
 
