@@ -145,7 +145,7 @@ const Profile = ({ appTheme, toggleTheme }) => {
                             ...FONTS.h2
                         }}
                     >
-                        ByProgrammers
+                        Ricko Caesar Putra
                     </Text>
 
                     <Text
@@ -154,7 +154,7 @@ const Profile = ({ appTheme, toggleTheme }) => {
                             ...FONTS.body4
                         }}
                     >
-                        Full Stack Developer
+                        Software Developer Telkomsel
                     </Text>
 
                     {/* Progress */}
@@ -217,7 +217,7 @@ const Profile = ({ appTheme, toggleTheme }) => {
                 <ProfileValue
                     icon={icons.profile}
                     label="Name"
-                    value="ByProgrammers"
+                    value="Ricko Caesar Putra"
                 />
 
                 <LineDivider />
@@ -225,7 +225,7 @@ const Profile = ({ appTheme, toggleTheme }) => {
                 <ProfileValue
                     icon={icons.email}
                     label="Email"
-                    value="byprogrammers@gmail.com"
+                    value="ricko.caesar.putra@gmail.com"
                 />
 
                 <LineDivider />
@@ -241,7 +241,7 @@ const Profile = ({ appTheme, toggleTheme }) => {
                 <ProfileValue
                     icon={icons.call}
                     label="Contact Number"
-                    value="+60123456789"
+                    value="+628119506060"
                 />
             </View>
         )

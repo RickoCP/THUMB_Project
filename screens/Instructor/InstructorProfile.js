@@ -33,7 +33,7 @@ const InstructorProfile = ({ appTheme, navigation }) => {
         return (
             <View>
                 {/* Background */}
-                <Image
+                {/* <Image
                     source={appTheme.name == "dark" ? images.bg_dark : images.bg_shape}
                     resizeMode="cover"
                     style={{
@@ -42,7 +42,7 @@ const InstructorProfile = ({ appTheme, navigation }) => {
                         width: SIZES.width,
                         height: 300
                     }}
-                />
+                /> */}
 
                 {/* Header */}
                 <View style={{
@@ -526,7 +526,7 @@ const InstructorProfile = ({ appTheme, navigation }) => {
         <View
             style={{
                 flex: 1,
-                backgroundColor: COLORS.lightGreen
+                backgroundColor: COLORS.primary
             }}
         >
             {/* Header */}

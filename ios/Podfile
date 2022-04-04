@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '11.0'
 
-target 'OnlineLearningApp' do
+target 'ThumbApp' do
   config = use_native_modules!
 
   use_react_native!(
@@ -14,7 +14,7 @@ target 'OnlineLearningApp' do
 
   pod 'RNSVG', :path => '../node_modules/react-native-svg'
 
-  target 'OnlineLearningAppTests' do
+  target 'ThumbAppTests' do
     inherit! :complete
     # Pods for testing
   end

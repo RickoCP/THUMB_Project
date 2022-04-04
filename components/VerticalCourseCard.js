@@ -12,13 +12,14 @@ import {
 } from "../components";
 import { SIZES, COLORS, FONTS, icons } from "../constants";
 
-const VerticalCourseCard = ({ containerStyle, course, appTheme }) => {
+const VerticalCourseCard = ({ containerStyle, course, appTheme, onPress }) => {
     return (
         <TouchableOpacity
             style={{
                 width: 270,
                 ...containerStyle
             }}
+            onPress={onPress}
         >
             {/* Thumbnail */}
             <Image

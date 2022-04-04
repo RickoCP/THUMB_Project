@@ -198,6 +198,7 @@ const Home = ({ appTheme }) => {
                             marginRight: index == dummyData.courses_list_1.length - 1 ? SIZES.padding : 0
                         }}
                         course={item}
+                        onPress={() => navigation.navigate("CourseDetails", { selectedCourse: item })}
                     />
                 )}
             />
@@ -260,7 +261,9 @@ const Home = ({ appTheme }) => {
                             containerStyle={{
                                 marginVertical: SIZES.padding,
                                 marginTop: index == 0 ? SIZES.radius : SIZES.padding
+                                
                             }}
+                            onPress={() => navigation.navigate("CourseDetails", { selectedCourse: item })}
                         />
                     )}
                     ItemSeparatorComponent={() => (

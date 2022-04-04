@@ -16,7 +16,7 @@ const categories = [
     },
     {
         id: 3,
-        title: "Indenesian",
+        title: "Indonesian",
         thumbnail: require("../assets/images/bg_4.png")
     },
     {
@@ -521,12 +521,6 @@ const instructorProfile = {
         },
         {
             id: 3,
-            name: "Facebook",
-            icon: require("../assets/icons/facebook.png"),
-            url: ""
-        },
-        {
-            id: 4,
             name: "Google",
             icon: require("../assets/icons/google.png"),
             url: ""

@@ -4,7 +4,7 @@ import {
     Text,
     TouchableOpacity
 } from 'react-native';
-import { FONTS, SIZES } from '../constants';
+import { FONTS, SIZES,COLORS } from '../constants';
 
 const IconLabelButton = ({ containerStyle, icon, iconStyle, label, labelStyle, onPress }) => {
     return (
@@ -31,6 +31,7 @@ const IconLabelButton = ({ containerStyle, icon, iconStyle, label, labelStyle, o
 
             <Text
                 style={{
+                    color:COLORS.black,
                     marginLeft: SIZES.base,
                     ...FONTS.body3,
                     ...labelStyle
